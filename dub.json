@@ -1,0 +1,16 @@
+{
+	"authors": [
+		"Lucius Seneca"
+	],
+	"copyright": "Copyright © 2023, Lucius Seneca",
+	"dependencies": { 
+		"raylib-d": "~>4.2.0" 
+	},
+	"libs": [ "raylib" ],
+	"lflags-posix" : ["-L."],
+	"lflags-osx" : ["-rpath", "@executable_path/"],
+	"lflags-linux" : ["-rpath=$$ORIGIN"],
+	"description": "Custom 3d renderer in D",
+	"license": "proprietary",
+	"name": "3drender"
+}
